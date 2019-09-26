@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-import { PhotoCard } from "../PhotoCard";
+import { PhotoCard } from '../PhotoCard'
 
 export const ListOfPhotoCards = () => {
   return (
@@ -11,5 +11,5 @@ export const ListOfPhotoCards = () => {
         </li>
       ))}
     </ul>
-  );
-};
+  )
+}
