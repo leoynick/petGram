@@ -11,8 +11,9 @@ export const Anchor = styled.a`
 export const Image = styled.img`
   border-radius: 50%;
   border: 1px solid #ddd;
-  box-shadow: 0px 10px 14px rgb(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, .2);
   height: 75px;
+  height: auto;
   object-fit: cover;
   overflow: hidden;
   width: 75px;
